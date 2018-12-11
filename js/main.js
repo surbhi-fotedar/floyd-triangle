@@ -7,6 +7,7 @@
     j;
 
   function displayFloydTriangle() {
+    result.innerHTML = '';
     for (i = 1; i <= rows.value; i++) {
       for (j = 1; j <= i; j++, n++) {
         result.innerHTML += ' ' + n;
