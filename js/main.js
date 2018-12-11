@@ -1,4 +1,5 @@
 (function() {
+  'use strict';
 
   var rows = document.getElementById('inputRows'),
     result = document.getElementById('resultGrp'),
