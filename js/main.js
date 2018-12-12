@@ -4,10 +4,12 @@
   var rows = document.getElementById('inputRows'),
     result = document.getElementById('resultGrp'),
     n = 1,
+    submitBtn,
     i,
     j;
 
   function displayFloydTriangle() {
+
     result.innerHTML = '';
     for (i = 1; i <= rows.value; i++) {
       for (j = 1; j <= i; j++, n++) {
